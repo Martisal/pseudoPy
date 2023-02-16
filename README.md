@@ -18,6 +18,7 @@ To properly run it, it is required to clone a repository[[2]](#2):
 # References
 
 <a id="1">[1]</a> C. Ferretti and M. Saletta. "*Naturalness in Source Code Summarization. How Significant is it?*". Submitted to 31st International Conference on Program Comprehension (ICPC). 2023.
+
 <a id="2">[2]</a>S. Haque et al. "*Semantic similarity metrics for evaluating source code summarization*". In: Proceedings of the 30th IEEE/ACM International Conference on Program Comprehension (ICPC). ACM, 2022, pp. 36–47.
 
 # Citation
