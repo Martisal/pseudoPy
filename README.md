@@ -6,7 +6,7 @@ The software requirements can be installed with
     
     pip install -r requirements.txt
 
-The file [`parse_json.py`](./parse_json.py) simply preprocesses the [CodeSearchNet](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text) dataset by fetching all the Python files and the corresponding target summaries, and saves them in two files (`[train|test|valid]_py_fun` and `[train|test|valid]_py_en`), in which the summary in the i-th row in the summary file is referred to the function at the i-th row in teh code file.
+The file [`parse_json.py`](./parse_json.py) simply preprocesses the [CodeSearchNet](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text) dataset by fetching all the Python files and the corresponding target summaries, and saves them in two files (`[train|test|valid]_py_fun` and `[train|test|valid]_py_en`), in which the summary in the i-th row in the summary file is referred to the function at the i-th row in the code file.
 
 The file [`pseudonl.py`](./pseudonl.py) processes the files produced by [`parse_json.py`](./parse_json.py) and translates all the contained Python functions in pseudoPy.
 
