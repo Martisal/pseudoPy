@@ -11,7 +11,7 @@ The file [`parse_json.py`](./parse_json.py) simply preprocesses the [CodeSearchN
 The file [`pseudonl.py`](./pseudonl.py) processes the files produced by [`parse_json.py`](./parse_json.py) and translates all the contained Python functions in pseudoPy.
 
 The file [`scores.py`](./scores.py) is used to preprocess the summary files and compute the BLEU and USE+cos scores.
-To properly run it, it is required to clone a repository[[2]](#2): 
+To properly run it, it is required to clone a repository [[2]](#2): 
 
     git clone https://github.com/similarityMetrics/similarityMetrics.git
 
