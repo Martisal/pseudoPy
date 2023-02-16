@@ -25,7 +25,7 @@ To properly run it, it is required to clone a repository[[2]](#2):
 If you find this repository useful for your work, please include the following citation:
 
 ```
-@inproceedings{adversarialGE,
+@inproceedings{preudoPy,
   author    = {Claudio Ferretti and Martina Saletta},
   title     = {Naturalness in Source Code Summarization. How Significant is it?},
   booktitle = {31st International Conference on Program Comprehension (ICPC) [submitted]},
