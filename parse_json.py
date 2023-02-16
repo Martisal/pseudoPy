@@ -1,6 +1,7 @@
 import json
 
-with open('/home/saletta/datasets/code-to-text/python/train.jsonl', 'r') as jf:
+ttv = 'train' #select 'test', 'train', or valid
+with open('/path/to/dataset/code-to-text/python/{}.jsonl'.format(ttv), 'r') as jf:
     jsl = jf.readlines()
     #jobj = jf.read()
     

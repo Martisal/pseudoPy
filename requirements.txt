@@ -1,0 +1,6 @@
+numpy
+pickle
+tensorflow==2.4.1
+nltk==3.6.1
+pystemmer
+argparse

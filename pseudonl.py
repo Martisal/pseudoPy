@@ -6,34 +6,6 @@ import random
 import string
 
 vardict = {}
-
-def parse_json(ds):
-    with open('/home/saletta/datasets/code-to-text/python/{}.jsonl'.format(ds), 'r') as jf:
-        jsl = jf.readlines()
-
-    jstr = '[\n'
-
-    for i in range(len(jsl)-1):
-        jstr += jsl[i][:-1] + ',\n'
-
-    jstr += jsl[len(jsl)-1][:-1] + '\n]'
-    js = json.loads(jstr)
-
-    py = open('pyfun/{}_py_fun'.format(ds), 'w')
-    en = open('pyfun/{}_py_en'.format(ds), 'w')
-
-    for j in js:
-        docstring = ''
-        for i in range(len(j['docstring_tokens'])):
-            docstring += j['docstring_tokens'][i] + ' '
-
-        code = j['code'].replace('\n', '\\n').replace('\r', '\\r')
-
-        py.write(code + '\n')
-        en.write(docstring[:-1] + '\n')
-
-    py.close()
-    en.close()
    
 def node_to_string(node): 
 
@@ -725,10 +697,10 @@ if __name__ == '__main__':
     ds = sys.argv[1]
     #parse_json(ds)
 
-    with open('pyfunStories/{}_py_fun'.format(ds),'r') as f:
+    with open('{}_py_fun'.format(ds),'r') as f:
         pys = f.readlines()
     
-    with open('pyfunStories/{}_py_en'.format(ds)) as p:
+    with open('{}_py_en'.format(ds)) as p:
         doc = p.readlines()
     
     print(len(doc), len(pys))
