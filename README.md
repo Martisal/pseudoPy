@@ -17,7 +17,7 @@ To properly run it, it is required to clone a repository [[2]](#2):
 
 # References
 
-<a id="1">[1]</a> C. Ferretti and M. Saletta. "*Naturalness in Source Code Summarization. How Significant is it?*". Submitted to 31st International Conference on Program Comprehension (ICPC). 2023.
+<a id="1">[1]</a> C. Ferretti and M. Saletta. "*Naturalness in Source Code Summarization. How Significant is it?*". IEEE/ACM 31st International Conference on Program Comprehension (ICPC), pp. 125-134. 2023.
 
 <a id="2">[2]</a> S. Haque et al. "*Semantic similarity metrics for evaluating source code summarization*". In: Proceedings of the 30th IEEE/ACM International Conference on Program Comprehension (ICPC). ACM, 2022, pp. 36–47.
 
@@ -29,9 +29,9 @@ If you find this repository useful for your work, please include the following c
 @inproceedings{pseudoPy,
   author    = {Claudio Ferretti and Martina Saletta},
   title     = {Naturalness in Source Code Summarization. How Significant is it?},
-  booktitle = {31st International Conference on Program Comprehension (ICPC) [submitted]},
-  pages     = {},
+  booktitle = {IEEE/ACM 31st International Conference on Program Comprehension (ICPC)},
+  pages     = {125-134},
   publisher = {{IEEE}},
-  year      = {2022},
+  year      = {2023},
 }
 ```
